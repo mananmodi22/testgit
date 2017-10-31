@@ -1,6 +1,8 @@
-###### ApacheFriends XAMPP Version 5.6.30 ######
+﻿###### ApacheFriends XAMPP Version 5.6.30 ######
 
 Manan Branch Changes
+
+local changes made with master
 
 Wichtig! PHP in diesem Paket benötigt die Microsoft Visual C++ 2008 Redistributable Erweiterung von
 http://www.microsoft.com/en-us/download/details.aspx?id=5582. Bitte stellen Sie sicher das die VC++ 2008 
