@@ -1,0 +1,62 @@
+
+git config --list
+
+git config --global user.name "manan"
+
+git config --global user.name "manan.modi@silvertouch.com"
+
+git config --help or git help config
+
+git init
+
+ls -la
+
+rm -rf .git
+git status
+
+touch .gitignore
+
+git branch
+
+git add -A
+
+git commit -m "commiting all files"
+
+git log
+
+git clone ../{folder_name}.git . {path where to make clone}
+git clone REMOTE_URL {path where to make clone}
+
+git remote -v
+
+git branch -a
+
+{show branches: master, remotes/origin/master, remotes/origin/HEAD -> origin/master}
+{now changing code in file}
+git diff
+
+git status 
+
+git add and git commit
+
+git pull origin master (To fetch updates from remote master branch)
+
+git push origin master (push local changes into remote master branch)
+
+git branch manan (create local branch manan)
+
+git checkout manan (go into local manan branch)
+
+git add or git commit (with local branch, master branch can not see changes until take update with below merge command).
+
+git merge manan (merging changes of local manan branch into master branch).
+
+git pull origin manan (take updates of remote manan branch)
+
+git push origin manan (push files in remote manan branch)
+
+git branch --merged
+
+git branch -d manan (to delete local branch manan)
+
+git push origin --delete manan (to delete remote server manan branch)
